@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo"><a href="#">logo here</a></div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Some Random University</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque labore voluptatem voluptatum <br> accusantium
+                ad asperiores omnis eligendi fugiat pariatur laborum. Totam sapiente <br> sunt esse qui dignissimos pariatur
+                et dolores ipsam!</p>
+            <a class="hero-btn" href="#">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("nav-links");
+
+    function showMenu(){
+        navLinks.style.width = "200px";
+    }
+    function hideMenu(){
+        navLinks.style.width = "0";
+    }
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+</body>
+
+</html>
