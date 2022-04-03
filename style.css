@@ -6,7 +6,11 @@
     font-family:'Poppins', sans-serif;;
 }
 
-
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
 
 .header{
     min-height: 100vh;
@@ -128,10 +132,6 @@ nav{
 
 
 @media (max-width:700px){    
-    html{
-        overflow: hidden;
-    }
-    
     .text-box h1{
         font-size: 1.6rem;
     }
